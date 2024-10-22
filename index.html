@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Councillor Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="logo">
+            <h1>Case Councillor</h1>
+        </div>
+        <div class="nav-options">
+            <button class="nav-btn">Home</button>
+            <button class="nav-btn">About Us</button>
+            <input type="search" placeholder="Search..." class="search-bar">
+            <button id="auth-btn" class="nav-btn">Login</button>
+        </div>
+    </div>
+
+    <!-- Profile Section -->
+    <div class="profile-header">
+        <div class="profile-image">
+            <img src="coding logo.png" alt="Profile Image">
+        </div>
+        <div class="profile-info">
+            <h2>Surjith Kumar</h2>
+            <p>Senior Legal Advisor</p>
+            <p>250k followers</p>
+            <button class="follow-btn">Add Friend</button>
+        </div>
+    </div>
+
+    <!-- Tabbed Navigation for Sections -->
+    <div class="tabs">
+        <button class="tab-btn">Cases</button>
+        <button class="tab-btn">Clients</button>
+        <button class="tab-btn">Documents</button>
+        <button class="tab-btn">Settings</button>
+    </div>
+
+    <!-- Content Section -->
+    <div class="container">
+        <div id="post-container" class="post-container">
+            <!-- Dynamic content for posts goes here -->
+        </div>
+        <div class="load-more">
+            <button id="load-more-btn" class="load-more-btn">Load More +</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
