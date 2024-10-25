@@ -12,12 +12,6 @@
         <div class="logo">
             <h1>Case Councillor</h1>
         </div>
-        <div class="nav-options">
-            <button class="nav-btn">Home</button>
-            <button class="nav-btn">About Us</button>
-            <input type="search" placeholder="Search..." class="search-bar">
-            <button id="auth-btn" class="nav-btn">Login</button>
-        </div>
     </div>
 
     <!-- Profile Section -->
@@ -48,6 +42,15 @@
         </div>
         <div class="load-more">
             <button id="load-more-btn" class="load-more-btn">Load More +</button>
+        </div>
+    </div>
+
+    <!-- Overlay for viewing full post -->
+    <div id="post-overlay" class="post-overlay">
+        <div class="post-overlay-content">
+            <button id="close-overlay-btn" class="close-overlay-btn">Back</button>
+            <h2 id="overlay-post-author"></h2>
+            <p id="overlay-post-description"></p>
         </div>
     </div>
 
